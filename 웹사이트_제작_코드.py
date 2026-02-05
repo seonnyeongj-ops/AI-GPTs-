@@ -9,6 +9,8 @@ Original file is located at
 
 import os
 from flask import Flask, render_template_string, request, redirect, url_for, session
+import streamlit as st
+
 
 # ==========================================
 # 1. 설정 (비밀번호 및 보안키)
@@ -155,7 +157,5 @@ if __name__ == '__main__':
 
     app.run(host='0.0.0.0', port=5000)
 
-pip install streamlit
 
-pip install flask
 
