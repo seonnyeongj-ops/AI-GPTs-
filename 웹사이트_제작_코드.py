@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 # ==========================================
-# 1. 페이지 초기 설정 (가장 먼저 실행되어야 함)
+# 1. 페이지 초기 설정 (가장 먼저 실행되어야 함) 
 # ==========================================
 st.set_page_config(
     page_title="2026 AI Smart Portal",
