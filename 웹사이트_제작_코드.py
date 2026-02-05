@@ -112,7 +112,7 @@ else:
     st.write("필요한 AI 도구를 선택하여 업무 시간을 단축하세요.")
     
     # 3. 탭 구성 (기능 분리)
-    tab1, tab2, tab3 = st.tabs(["📂 전체 도구", "🏆 베스트 추천", "📫 도구 요청함"])
+    tab1, tab2, tab3 = st.tabs(["📂 전체 도구", "🏆 베스트 추천(추후 사용량 기반 재구성)", "📫 도구 요청함"])
 
     # --- [탭 1: 전체 도구 및 검색] ---
     with tab1:
@@ -166,9 +166,9 @@ else:
         
         # 메트릭(숫자) 대시보드
         m1, m2, m3 = st.columns(3)
-        m1.metric(label="이메일 봇 사용량", value="1,240회", delta="▲ 12%")
-        m2.metric(label="회의록 요약기", value="980회", delta="▲ 5%")
-        m3.metric(label="절약된 업무 시간", value="약 120시간", delta="positive")
+        m1.metric(label="이메일 봇 사용량", value="0,000회", delta="▲ 00%")
+        m2.metric(label="회의록 요약기", value="000회", delta="▲ 0%")
+        m3.metric(label="절약된 업무 시간", value="약 00시간", delta="positive")
         
         st.markdown("---")
         st.info("💡 **Tip:** 반복되는 엑셀 작업은 '파이썬 코드 리뷰어'에게 자동화 코드를 짜달라고 해보세요!")
